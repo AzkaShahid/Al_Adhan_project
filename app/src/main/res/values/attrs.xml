@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NestedProgress">
+        <attr name="innerLoaderAnimDuration" format="integer" />
+        <attr name="outerLoaderAnimDuration" format="integer" />
+        <attr name="outerLoaderLength" format="integer" />
+        <attr name="innerLoaderLength" format="float" />
+        <attr name="outerLoaderColor" format="color" />
+        <attr name="innerLoaderColor" format="color" />
+        <attr name="innerLoaderStrokeWidth" format="dimension" />
+        <attr name="outerLoaderStrokeWidth" format="dimension" />
+        <attr name="spaceBetweenCircles" format="dimension" />
+        <attr name="innerAnimInterpolator" format="enum">
+            <enum name="accelerate" value="0" />
+            <enum name="decelerate" value="1" />
+            <enum name="accelerateDecelerate" value="2" />
+            <enum name="anticipate" value="3" />
+            <enum name="anticipateOvershoot" value="4" />
+            <enum name="linear" value="5" />
+            <enum name="overshoot" value="6" />
+        </attr>
+        <attr name="outerAnimInterpolator" format="enum">
+            <enum name="accelerate" value="0" />
+            <enum name="decelerate" value="1" />
+            <enum name="accelerateDecelerate" value="2" />
+            <enum name="anticipate" value="3" />
+            <enum name="anticipateOvershoot" value="4" />
+            <enum name="linear" value="5" />
+            <enum name="overshoot" value="6" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="PdfRendererView">
+        <attr name="pdfView_quality" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="normal" value="2" />
+            <enum name="enhanced" value="3" />
+        </attr>
+        <attr name="pdfView_engine" format="enum">
+            <enum name="internal" value="100" />
+            <enum name="google" value="200" />
+        </attr>
+        <attr name="pdfView_showDivider" format="boolean" />
+        <attr name="pdfView_divider" format="reference" />
+
+        <attr name="pdfView_enableLoadingForPages" format="reference|boolean" />
+
+        <attr name="pdfView_page_margin" format="reference|dimension"  />
+        <attr name="pdfView_page_marginLeft" format="reference|dimension"  />
+        <attr name="pdfView_page_marginTop" format="reference|dimension" />
+        <attr name="pdfView_page_marginRight" format="reference|dimension"  />
+        <attr name="pdfView_page_marginBottom" format="reference|dimension"  />
+    </declare-styleable>
+
+    <!-- icons -->
+    <attr name="pdfView_backIcon" format="reference" />
+    <attr name="pdfView_downloadIcon" format="reference" />
+
+    <!-- icon color -->
+    <attr name="pdfView_downloadIconTint" format="reference|color" />
+    <attr name="pdfView_actionBarTint" format="reference|color" />
+
+    <!-- Text Appearance Customizations - Common -->
+    <attr name="pdfView_titleTextStyle" format="reference" />
+
+    <attr name="pdfView_progressBar" format="reference"/>
+    <attr name="pdfView_backgroundColor" format="reference|color"/>
+</resources>

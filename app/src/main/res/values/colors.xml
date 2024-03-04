@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Buttons Background Color-->
+    <color name="colorPrimary">#006683</color>
+    <!--Text Color-->
+    <color name="colorOnPrimary">#FF000000</color>
+    <color name="colorPrimaryVariant">#FF000000</color>
+    <color name="peach">#FCA39B</color>
+    <!--Input Views Active State Color-->
+    <color name="colorSecondary">#474747</color>
+    <color name="greyColor">#808080</color>
+    <color name="colorSecondaryVariant">#474747</color>
+    <color name="colorOnSecondary">#FFFFFFFF</color>
+    <color name="colorError">#C62828</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="brown">#9AA271</color>
+    <color name="light_green">#cfd5af</color>
+
+
+    <color name="statusBarColor">#FFFFFFFF</color>
+    <color name="colorToolbarContent">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryAlpha">#BFB393</color>
+
+    <color name="colorTextTitle">#474747</color>
+    <color name="colorTextSubTitle">#474747</color>
+
+
+    <color name="color_inner">#006683</color>
+    <color name="color_outer">#80006683</color>
+
+
+</resources>

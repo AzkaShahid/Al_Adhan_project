@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TransparentProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--    <style name="AppButton">-->
+    <!--        <item name="android:textSize">@dimen/font_16</item>-->
+    <!--        <item name="android:textColor">@color/white</item>-->
+    <!--        <item name="android:text">@string/app_name</item>-->
+    <!--        <item name="android:background">@drawable/ic_button_bg</item>-->
+
+    <!--    </style>-->
+
+    <style name="AppButton">
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/app_name</item>
+        <item name="android:layout_height">@dimen/margin_60</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+
+    <style name="TextAppearance.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@color/colorTextTitle</item>
+    </style>
+
+    <style name="TextAppearance.SubTitle" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="TextAppearance.Normal" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:letterSpacing">0</item>
+        <item name="android:textColor">@color/colorTextTitle</item>
+        <item name="android:textSize">@dimen/font_22</item>
+    </style>
+
+
+    <style name="TextAppearance.Title.Medium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

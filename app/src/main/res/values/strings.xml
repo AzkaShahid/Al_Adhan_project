@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">AlAdhan</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_user_profile">User Profile</string>
+    <string name="please_check_your_internet_connection">Please check your internet connection.</string>
+
+
+    //COPIED FROM WEJOIN
+
+    <string name="login_hint_user_name">Username or Email</string>
+    <string name="login_hint_password">Password</string>
+    <string name="auth_login">Log in</string>
+    <string name="str_shops">Shops</string>
+    <string name="manage_shops">Manage Shops</string>
+    <string name="str_catalog">Catalog</string>
+    <string name="add_product">Add Product</string>
+    <string name="product_detail">Product Details</string>
+    <string name="catalog">Catalog</string>
+    <string name="description">Description</string>
+    <string name="product_name">Product Name</string>
+    <string name="main_features">Main Features</string>
+    <string name="condition">Condition</string>
+    <string name="price_all_tax">Price all tax included</string>
+    <string name="all_tax_price_included">All tax included Price</string>
+    <string name="sale_unit">Sales unit</string>
+    <string name="all_tax_inc_price">All tax included price</string>
+    <string name="stock">Stock</string>
+    <string name="video_url">Video URL</string>
+    <string name="product_variations">Product variations</string>
+    <string name="add_varialtion">Add variants</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="save">Save</string>
+    <string name="add_product_images">Add Product Images</string>
+    <string name="document">Document</string>
+    <string name="add_tags">Add or search a tag</string>
+    <string name="last_signed_in">Select the user you want to login with</string>
+    <string name="login_server_vjoinlife1_text">WeJoinLife, new way of shop and connect.</string>
+    <string name="shop_images">Shop Images</string>
+    <string name="add_image">Add Image</string>
+    <string name="shop_catalog">Shops Catalog</string>
+    <string name="image_upload_limit">You can only add 3 Images.</string>
+    <string name="price_str">\"Price : \"</string>
+    <string name="str_exit">Exit</string>
+    <string name="confirm_exit">Confirm Exit?</string>
+    <string name="are_you_sure_you_want_to_exit_from_the_app">Are you sure you want to exit from the app?</string>
+    <string name="str_conference">Conference</string>
+    <string name="str_shop_help">Your buyers will use these images to crop and buy products from your shop.</string>
+    <string name="add_more_details">Add more details</string>
+    <string name="last_updated">Last updated</string>
+    <string name="select_catelog">Select Catalog</string>
+    <string name="manage_catalogs">Manage Catalog</string>
+    <string name="no_shop_image">Shop images not added yet. \nPlease click on + button to add shop images.</string>
+    <string name="no_shop_available">No shop available. Click on + button to add.</string>
+    <string name="add_shop">Add Shop</string>
+    <string name="how_to_create">How to create shop?</string>
+    <string name="promote_shope">How to promote shop?</string>
+    <string name="no_catalog_products">No products in %s, click on plus to add.</string>
+    <string name="see_all">See All(%s)</string>
+    <string name="images_limit">You can only add 3 Images.</string>
+    <string name="enter_product_name">Please enter product name</string>
+    <string name="eneter_product_price">Please enter product price</string>
+    <string name="please_add_product_images">Please add product Images</string>
+    <string name="notification_channel_id" />
+    <string name="new_order">New Order</string>
+    <string name="pending_order">Pending Order</string>
+    <string name="Order_in_month">Order in month:</string>
+    <string name="Order_in_12_month">Order in 12 months:</string>
+    <string name="web_client_id">961261364420-v5p3jb6j5g6rogo9osodu8aqub2eqq0c.apps.googleusercontent.com</string>
+    <string name="update_available">Update Available</string>
+    <string name="str_update">Update</string>
+    <string name="app_update_message">A new version of Wejoinlife app is now available. Please update your version for new services and better experience.</string>
+    <string name="settings_set_order_count">Select push sound duration</string>
+    <string name="one_time">One Time</string>
+    <string name="two_time">Two Time</string>
+    <string name="three_time">Three Time</string>
+    <string name="five_time">Five Time</string>
+    <string name="until_order_accepted">Until Order Accepted</string>
+    <string name="share_qr_code">Share QR Code</string>
+
+
+    <!--Printer Changes-->
+    <string name="main_bluetooth_address_1">BT:00:01:90:BE:3D:F2</string>
+    <string name="main_bluetooth_address_2">BT:00:01:90:BE:3D:69</string>
+    <string name="main_tcp_address_1">TCP:192.168.10.110</string>
+    <string name="main_tcp_address_2">TCP:172.16.1.242</string>
+    <string name="main_connect_timeout">Connect Timeout (in seconds)</string>
+    <string name="main_print_timeout">Print Timeout (in seconds)</string>
+    <string name="main_connect_printers">Connect printer(s)</string>
+    <string name="main_init_printers">Init printer(s)</string>
+    <string name="main_print_ticket">Test Print</string>
+    <string name="main_disconnect_printers">Disconnect printer(s)</string>
+    <string name="main_get_job_history_list">Show results history</string>
+    <string name="main_get_managed_printer_list">Show managed printer(s)</string>
+    <string name="main_get_remaining_job_list">Show remaining Jobs</string>
+    <string name="main_start_exampleActivity">Start ExampleActivity</string>
+    <string name="main_connection_mode_persistent">Manual</string>
+    <string name="main_connection_mode_on_demand">Auto</string>
+    <string name="main_connection_mode_title">Connection Mode : </string>
+    <string name="main_printer_address">Set Printer Address : </string>
+
+    <string name="job_succeed">Succeed</string>
+    <string name="job_failed">Failed</string>
+    <string name="printer_connected">Connected</string>
+    <string name="printer_disconnected">Disconnected</string>
+
+    <string name="clear_list_button">Clear list</string>
+    <string name="cancel_remaining_jobs_button">Cancel all jobs and unlock</string>
+    <string name="close_button">Close</string>
+    <string name="error_code">Code</string>
+    <string name="error_message">Message</string>
+    <string name="error_action">Action</string>
+    <string name="printer_address">Printer address</string>
+    <string name="printer_settings">Printer Settings</string>
+    <string name="printer_status">Status</string>
+    <string name="date">Date</string>
+    <string name="scope">Scope</string>
+    <string name="result">Result</string>
+
+    <string name="job_result_error_printer_address">Printer Address : %1$s</string>
+    <string name="job_result_error_scope">Scope : %1$s</string>
+    <string name="job_result_error_date">Date : %1$s</string>
+    <string name="job_result_error_message">"Error message : %1$s</string>
+    <string name="job_result_error_code">"Error code : %1$s</string>
+    <string name="job_result_error_action">"Error action : %1$s</string>
+
+    <string name="imageView_content_bin">Image of bin to remove printer</string>
+
+    <string name="powered_tabesto">Powered by Wejoinlife</string>
+    <string name="enable_order_prints">Enable Printer</string>
+    <string name="str_connected">connected</string>
+    <string name="connected_printer">Connected Printer :</string>
+    <string name="wifi">WIFI</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="setup_printer">Setup Printer</string>
+    <string name="print_all_new_orders">Print all new orders</string>
+
+    <string name="stroke_range_error">Stroke can take values range 1 and 10</string>
+    <string name="space_between_range_error">Space between circles can take values range 1 and 10</string>
+
+    <string name="dialog_title_confirmation">Confirmation</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_success">Success</string>
+    <string name="no_account">Please Enter Valid Email or Password</string>
+    <string name="ok">OK</string>
+
+</resources>

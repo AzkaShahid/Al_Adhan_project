@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_10">
+    <LinearLayout
+        android:id="@+id/fajr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/Fajrtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Fajr"
+            android:layout_marginStart="@dimen/margin_10"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin_18" />
+
+        <TextView
+            android:id="@+id/Fajrtiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_18"
+            android:layout_weight="2"
+            android:text="4:30"
+            android:textColor="@color/white"
+
+            android:textAlignment="gravity"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sunrise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2"
+
+        >
+
+        <TextView
+            android:id="@+id/sunrisetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+
+            android:text="Sunrise"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/sunrisetiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:layout_weight="2"
+            android:text="4:30"
+            android:textSize="18sp">
+
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/duhr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/duhrtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+
+
+            android:text="Duhr"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/duhrtiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="2"
+            android:text="4:30"
+            android:textColor="@color/white"
+
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Asr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/asrtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+
+            android:text="Asr"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/asrtiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="2"
+            android:text="4:30"
+            android:textColor="@color/white"
+
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/maghrib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/maghribtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+
+            android:layout_weight="1"
+            android:text="Maghrib"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/maghribtiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:layout_weight="2"
+            android:text="4:30"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Isha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:background="@drawable/ic_bg"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/ishatext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Isha"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/margin_10"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ishatiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+
+            android:text="4:30"
+            android:textSize="18sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
