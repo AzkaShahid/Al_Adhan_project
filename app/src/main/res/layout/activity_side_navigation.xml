@@ -32,7 +32,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/margin_60"
                 android:layout_marginBottom="@dimen/margin_20"
-                android:background="@drawable/ic_branding_logo"/>
+                android:background="@drawable/traficsensorlogo1"/>
 
 
             <androidx.recyclerview.widget.RecyclerView

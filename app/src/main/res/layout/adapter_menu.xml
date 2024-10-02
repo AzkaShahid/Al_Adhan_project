@@ -24,7 +24,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:src="@drawable/ic_menu"
-            app:tint="@color/colorToolbarContent" />
+            app:tint="@color/white" />
 
         <TextView
             android:id="@+id/tvMenu"
@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_10"
             android:text="@string/app_name"
-            android:textColor="@color/colorToolbarContent"
+            android:textColor="@color/white"
             android:textSize="@dimen/font_16" />
     </LinearLayout>
 

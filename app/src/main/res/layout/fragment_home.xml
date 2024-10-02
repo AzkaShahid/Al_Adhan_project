@@ -19,11 +19,32 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="@dimen/margin_15"
-            android:text="cityName"
+            android:text="Your Location"
+            android:drawablePadding="@dimen/margin_10"
+            android:drawableTint="@color/white"
+            android:gravity="center_vertical"
             android:textColor="@color/white"
             android:textSize="@dimen/margin_20">
 
         </TextView>
+
+        <ImageView
+            android:id="@+id/getCurrentLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:drawableTint="@color/white"
+            android:src="@drawable/ic_current">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/setAlarmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_alarm"
+            android:layout_marginStart="20dp"
+            android:visibility="gone">
+
+        </ImageView>
 
     </LinearLayout>
 
@@ -43,7 +64,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/margin_10">
+                android:padding="@dimen/margin_10"
+                android:visibility="gone">
+
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
@@ -241,15 +264,82 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/tvEmailText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_20"
+                android:text="Destination Location"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_18"
+              />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_10"
+                />
+
+            <EditText
+                android:id="@+id/etLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginTop="@dimen/margin_8"
+                android:background="@drawable/ic_enter_bg"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/margin_10"
+                android:visibility="gone"
+
+                android:textColor="@color/greyColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvEmailText" />
+            <TextView
+                android:id="@+id/btnGetRoutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Routes"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:background="@drawable/ic_btn_bg"
+                android:textColor="@color/white"
+                android:padding="@dimen/margin_8"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:textSize="@dimen/font_12" />
+            <TextView
+                android:id="@+id/tv_map_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Our current location"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_8"
+                android:textSize="@dimen/font_20" />
+
+
+            <com.app.views.AppMapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/margin_10">
+                android:padding="@dimen/margin_10"
+                android:visibility="gone">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:cardCornerRadius="@dimen/margin_20">
+                    app:cardCornerRadius="@dimen/margin_20"
+                   >
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -378,7 +468,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:padding="@dimen/margin_15">
+                android:padding="@dimen/margin_15"
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -560,17 +651,15 @@
                     app:cardBackgroundColor="@color/brown"
                     android:layout_marginTop="@dimen/margin_10"
                     app:cardCornerRadius="@dimen/margin_10"
-
                     >
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:background="@drawable/ic_bg"
                         android:padding="10dp">
 
                         <TextView
-                            android:id="@+id/maghribText"
+                            android:id="@+id/maghribtext"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="@dimen/margin_10"

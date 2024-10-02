@@ -66,4 +66,5 @@
 
     <attr name="pdfView_progressBar" format="reference"/>
     <attr name="pdfView_backgroundColor" format="reference|color"/>
+
 </resources>

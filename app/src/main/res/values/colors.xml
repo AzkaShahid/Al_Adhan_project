@@ -13,15 +13,15 @@
     <color name="colorOnSecondary">#FFFFFFFF</color>
     <color name="colorError">#C62828</color>
     <color name="colorBackground">#FAFAFA</color>
-    <color name="brown">#9AA271</color>
-    <color name="light_green">#cfd5af</color>
+    <color name="brown">#808080</color>
+    <color name="light_green">#1E234F</color>
 
 
     <color name="statusBarColor">#FFFFFFFF</color>
     <color name="colorToolbarContent">#FF000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimaryAlpha">#BFB393</color>
+    <color name="colorPrimaryAlpha">#474747</color>
 
     <color name="colorTextTitle">#474747</color>
     <color name="colorTextSubTitle">#474747</color>

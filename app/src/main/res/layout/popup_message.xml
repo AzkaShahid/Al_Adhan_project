@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="Distance: 5 km"
+        />
+
+    <TextView
+        android:id="@+id/tvRoadName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/tvDistance"
+        android:layout_alignParentStart="true"
+        android:text="Road Name: Example Road"
+        />
+
+    <TextView
+        android:id="@+id/tvTrafficCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traffic Condition:"
+        android:layout_marginTop="@dimen/margin_5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_16"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvRoadName"
+        />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/tvTrafficCondition"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:padding="8dp"/>
+
+</RelativeLayout>
